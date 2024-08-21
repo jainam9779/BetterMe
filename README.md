@@ -1,4 +1,5 @@
-# ![BetterMe Logo](./path/to/ic_logo.png) BetterMe - Habit Tracker App
+![BetterMe Logo](./ic_logo.png) 
+# BetterMe - Habit Tracker App
 
 ![Platform](https://img.shields.io/badge/Platform-Android-green)
 ![Language](https://img.shields.io/badge/Language-Kotlin%20%2F%20Java-orange)
