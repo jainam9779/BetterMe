@@ -1,18 +1,22 @@
-# BetterMe - Habit Tracker App
+# ![BetterMe Logo](./path/to/ic_logo.png) BetterMe - Habit Tracker App
 
-## Project Description
+![Platform](https://img.shields.io/badge/Platform-Android-green)
+![Language](https://img.shields.io/badge/Language-Kotlin%20%2F%20Java-orange)
+![Status](https://img.shields.io/badge/Status-Development-blue)
 
-**BetterMe** is a habit tracker app designed to assist users in building and maintaining positive habits by tracking their progress over time. Users can set personal goals, monitor daily activities, and visualize their progress through charts and calendars. The app is focused on providing a user-friendly interface that makes habit tracking simple and effective, motivating users to achieve their desired habits and improve their lifestyle.
+## 📚 Project Description
 
-## Problem Addressing
+**BetterMe** is a habit tracker app designed to assist users in building and maintaining positive habits by tracking their progress over time. Users can set personal goals, monitor daily activities, and visualize their progress through charts and calendars. The app focuses on providing a user-friendly interface that makes habit tracking simple and effective, motivating users to achieve their desired habits and improve their lifestyle.
+
+## 🚩 Problem Addressing
 
 Consistency is often the biggest challenge when trying to establish new habits. Traditional methods of habit tracking, like pen-and-paper or simple checklists, lack the engagement and feedback necessary to sustain motivation. **BetterMe** addresses these challenges by offering a digital solution that integrates reminders, visual progress tracking, and data synchronization, helping users stay accountable and focused on their goals.
 
-## Platform
+## 🛠️ Platform
 
 The app is developed specifically for the **Android platform**. This choice ensures compatibility with a wide range of devices and leverages the extensive capabilities of modern Android devices to provide a seamless user experience. The decision to use Android was also driven by its broad accessibility and the availability of robust development tools.
 
-## Project Structure
+## 🗂️ Project Structure
 
 ### 1. `manifests`
 - **AndroidManifest.xml**: The core file that defines essential information about the app, such as components, permissions, and services.
@@ -61,7 +65,7 @@ The app is developed specifically for the **Android platform**. This choice ensu
 - **build.gradle.kts (Module: app)**: Module-specific build configurations, dependencies, and plugins.
 - **gradle.properties**, **settings.gradle.kts**: Project settings and environment configurations.
 
-## Front/Back End Support
+## 🖥️ Front/Back End Support
 
 ### Front End
 
@@ -78,7 +82,7 @@ The app is developed specifically for the **Android platform**. This choice ensu
 - **Cloud Storage** (Optional): Firebase for syncing data across devices
 - **Notifications**: AlarmManager or WorkManager for setting daily reminders
 
-## Functionality
+## 🚀 Functionality
 
 The **BetterMe** app offers a variety of features designed to enhance the habit-building process:
 
@@ -88,7 +92,7 @@ The **BetterMe** app offers a variety of features designed to enhance the habit-
 - **Visual Progress**: Charts and calendars display progress, providing insights into habit-building trends.
 - **Data Synchronization**: (Optional) Sync data with cloud services for backup and multi-device support.
 
-## Design (Wireframes)
+## 🎨 Design (Wireframes)
 
 The app's design focuses on simplicity and effectiveness, utilizing intuitive layouts and clear visual cues. The following wireframes illustrate the app's primary screens:
 
@@ -97,7 +101,7 @@ The app's design focuses on simplicity and effectiveness, utilizing intuitive la
 3. **Progress Screen**: Charts and calendars displaying habit completion over time.
 4. **Settings Screen**: Options for configuring notifications, data sync, and app preferences.
 
-## Version Changelog
+## 📈 Version Changelog
 
 ### Version 1.0 - Initial Outline Submission (Week 2)
 - **Project Description:** Initial project idea and outline.
@@ -126,5 +130,3 @@ The app's design focuses on simplicity and effectiveness, utilizing intuitive la
 - **Version 1.4:** Plan to add social sharing features, allowing users to share their progress on social media platforms.
 - **Version 1.5:** Introduce a habit template library where users can select from predefined habits.
 - **Version 1.6:** Enhance accessibility features, including voice commands and screen reader support.
-
-
