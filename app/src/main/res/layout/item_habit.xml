@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Habit Name -->
+    <TextView
+        android:id="@+id/habitName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sleep by 8"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingBottom="8dp"/>
+
+    <!-- Days of the week with checkboxes -->
+    <LinearLayout
+        android:id="@+id/weekDaysLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <!-- Sunday -->
+        <CheckBox
+            android:id="@+id/sun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sun"/>
+
+        <!-- Monday -->
+        <CheckBox
+            android:id="@+id/mon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mon"/>
+
+        <!-- Tuesday -->
+        <CheckBox
+            android:id="@+id/tue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tue"/>
+
+        <!-- Wednesday -->
+        <CheckBox
+            android:id="@+id/wed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wed"/>
+
+        <!-- Thursday -->
+        <CheckBox
+            android:id="@+id/thu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thu"/>
+
+        <!-- Friday -->
+        <CheckBox
+            android:id="@+id/fri"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fri"/>
+
+        <!-- Saturday -->
+        <CheckBox
+            android:id="@+id/sat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sat"/>
+
+    </LinearLayout>
+
+</LinearLayout>

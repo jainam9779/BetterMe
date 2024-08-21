@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient">
+
+    <!-- Logo with Elevation for Shadow -->
+    <ImageView
+        android:id="@+id/appLogo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/ic_logo"
+        android:contentDescription="@string/app_logo_description"
+        android:elevation="8dp" />
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/signInTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="@color/textPrimaryColor"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-medium"
+        android:layout_below="@id/appLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <!-- Question above the Spinner -->
+    <TextView
+        android:id="@+id/moodQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How do you feel today?"
+        android:textColor="@color/textPrimaryColor"
+        android:textSize="18sp"
+        android:layout_below="@id/signInTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp" />
+
+    <!-- Mood Spinner -->
+    <Spinner
+        android:id="@+id/moodSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/moodQuestion"
+        android:background="@drawable/rounded_spinner"
+        android:padding="12dp"
+        android:entries="@array/mood_options"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:dropDownWidth="match_parent"
+        android:popupBackground="@color/accentColor"
+        android:textColor="@color/textPrimaryColor" />
+
+    <!-- Track Yourself Button with Gradient and Shadow -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/trackYourselfButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TRACK YOURSELF"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/accentColor"
+        android:textAllCaps="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="32dp"
+        android:padding="16dp"
+        android:textSize="18sp"
+        android:layout_marginBottom="40dp"
+        android:elevation="12dp" />
+
+</RelativeLayout>

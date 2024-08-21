@@ -1,0 +1,20 @@
+<resources>
+    <string-array name="emojis">
+        <item>Very happy 😄</item>
+        <item>Worried 😟</item>
+        <item>Shocked 😲</item>
+        <item>Bored 😴</item>
+        <item>Scared 😨</item>
+        <item>Confused 😕</item>
+        <item>Excited 🤩</item>
+        <item>Nervous 😰</item>
+        <item>Tired 😩</item>
+        <item>Angry 😠</item>
+        <item>Embarrassed 😳</item>
+        <item>Grumpy 😡</item>
+        <item>Happy 😊</item>
+        <item>Quiet 🤐</item>
+        <item>Sad 😢</item>
+        <item>Sick 🤢</item>
+    </string-array>
+</resources>

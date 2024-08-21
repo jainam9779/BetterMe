@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colors based on your logo -->
+    <color name="logo_primary">#6200EE</color> <!-- Primary logo color -->
+    <color name="logo_primary_variant">#3700B3</color> <!-- Darker variant of the logo color -->
+    <color name="logo_secondary">#03DAC5</color> <!-- Complementary logo color -->
+    <color name="logo_secondary_variant">#018786</color> <!-- Darker variant of the complementary color -->
+
+    <!-- App theme colors -->
+    <color name="primary_color">#2C2C2C</color> <!-- Dark Gray/Black for background -->
+    <color name="primary_color_light">#F5F5F5</color> <!-- Light background color for light themes -->
+    <color name="accent_color">#D0BBFF</color>  <!-- Light Purple for buttons and accents -->
+    <color name="secondary_accent_color">#00D1FF</color> <!-- Aqua Blue for secondary accents -->
+    <color name="tertiary_accent_color">#FF9BE5</color> <!-- Soft Pink for additional accents -->
+
+    <!-- Text colors -->
+    <color name="dark_text_color">#2C2C2C</color> <!-- Dark Gray for text on light backgrounds -->
+    <color name="light_text_color">#FFFFFF</color> <!-- White for text on dark backgrounds -->
+    <color name="secondary_text_color">#757575</color> <!-- Gray for secondary text -->
+    <color name="disabled_text_color">#BDBDBD</color> <!-- Light gray for disabled text -->
+
+    <!-- Background colors -->
+    <color name="white">#FFFFFF</color> <!-- White for general use -->
+    <color name="light_gray">#D3D3D3</color> <!-- Light gray for subtle elements -->
+    <color name="dark_gray">#A9A9A9</color> <!-- Dark gray for secondary text or borders -->
+    <color name="background_gray">#F0F0F0</color> <!-- Background color for cards, etc. -->
+
+    <!-- Divider/Border colors -->
+    <color name="divider_color">#E0E0E0</color> <!-- Light gray for dividers or borders -->
+
+    <!-- Status colors -->
+    <color name="success_color">#4CAF50</color> <!-- Green for success messages -->
+    <color name="warning_color">#FFC107</color> <!-- Yellow/Orange for warnings -->
+    <color name="error_color">#F44336</color> <!-- Red for errors -->
+
+    <!-- Ripple/Highlight colors -->
+    <color name="ripple_color_light">#BB86FC</color> <!-- Light ripple effect on dark backgrounds -->
+    <color name="ripple_color_dark">#6200EE</color> <!-- Dark ripple effect on light backgrounds -->
+
+    <!-- Additional colors -->
+    <color name="black">#000000</color>
+    <color name="purple_200">#BB86FC</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_700">#018786</color>
+    <color name="tab_selected_text_color">#FFFFFF</color> <!-- White for selected tab text -->
+    <color name="tab_unselected_text_color">#888888</color> <!-- Light gray for unselected tab text -->
+    <color name="primary_color_variant">#3700B3</color> <!-- A darker shade of primary_color -->
+    <color name="primaryColor">#FF6200EE</color>
+
+    <!-- Primary and Secondary Colors -->
+    <color name="colorPrimary">#6200EE</color> <!-- Define your primary color -->
+    <color name="colorPrimaryVariant">#3700B3</color> <!-- Define a darker variant of the primary color -->
+    <color name="colorAccent">#03DAC5</color> <!-- Define your accent color -->
+    <color name="colorBackground">#F5F5F5</color> <!-- Define the background color -->
+
+    <!-- Text Colors -->
+    <color name="colorTextPrimary">#212121</color> <!-- Dark color for primary text -->
+    <color name="colorTextSecondary">#757575</color> <!-- Lighter color for secondary text -->
+
+    <!-- Additional Colors (Optional) -->
+    <color name="colorPrimaryDark">#3700B3</color> <!-- Darker variant of primary color -->
+    <color name="colorSecondary">#03DAC5</color> <!-- Secondary color -->
+    <color name="colorSecondaryVariant">#018786</color> <!-- Darker variant of secondary color -->
+    <color name="colorCardBackground">#FFFFFF</color> <!-- Or choose a color that fits your design -->
+
+    <color name="backgroundColor">#ECF0F1</color>
+    <color name="primaryColorDark">#22313F</color>
+    <color name="accentColor">#1ABC9C</color>
+    <color name="textPrimaryColor">#34495E</color>
+    <color name="textSecondaryColor">#95A5A6</color>
+    <color name="primary_variant_color">#512DA8</color> <!-- Example primary variant color -->
+
+
+</resources>

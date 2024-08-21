@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@color/primary_color">
+
+    <TextView
+        android:id="@+id/homeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to BetterMe"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp"
+        android:layout_gravity="center" />
+
+    <!-- First Feature Button (Checklist) -->
+    <Button
+        android:id="@+id/checklistButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/square_button2"
+        android:text="Checklist"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <!-- Second Feature Button (Progress) -->
+    <Button
+        android:id="@+id/progressButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/square_button"
+        android:text="Progress"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <!-- Third Feature Button (Habits) -->
+    <Button
+        android:id="@+id/habitsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/square_button"
+        android:text="Habits"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <!-- Fourth Feature Button (More) -->
+    <Button
+        android:id="@+id/moreButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/square_button"
+        android:text="More"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+</LinearLayout>

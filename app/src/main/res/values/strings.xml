@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">BetterMe</string>
+    <string name="app_logo_description">BetterMe app logo</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string-array name="mood_options">
+        <item>Very happy 😄</item>
+        <item>Happy 😊</item>
+        <item>Sad 😢</item>
+        <item>Angry 😠</item>
+        <item>Tired 😴</item>
+        <item>Excited 😆</item>
+    </string-array>
+</resources>

@@ -1,0 +1,53 @@
+<resources>
+
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorOnPrimary">@color/colorAccent</item>
+        <item name="colorSecondary">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/colorBackground</item>
+        <item name="android:textColorPrimary">@color/colorTextPrimary</item>
+        <item name="android:textColorSecondary">@color/colorTextSecondary</item>
+        <item name="android:navigationBarColor">@color/colorBackground</item>
+        <item name="android:statusBarColor">@color/colorPrimaryVariant</item>
+        <item name="android:buttonStyle">@style/Widget.App.Button</item>
+        <item name="cardViewStyle">@style/Widget.App.CardView</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryVariant</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+
+
+    </style>
+
+    <!-- ShapeAppearance for buttons -->
+    <style name="ShapeAppearance.MyButton" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">24dp</item> <!-- Defines the corner radius -->
+    </style>
+
+    <!-- Button style -->
+    <style name="Widget.App.Button" parent="Widget.MaterialComponents.Button">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearance.MyButton</item> <!-- Apply ShapeAppearance -->
+        <item name="android:backgroundTint">@color/colorAccent</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:elevation">4dp</item>
+
+    </style>
+
+    <!-- Card style -->
+    <style name="Widget.App.CardView" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">2dp</item>
+        <item name="cardBackgroundColor">@color/colorCardBackground</item>
+    </style>
+
+
+    <!-- Square Button Style -->
+    <style name="Widget.App.Button.Square" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">0dp</item> <!-- Square corners -->
+        <item name="android:padding">16dp</item>
+        <item name="android:elevation">4dp</item>
+    </style>
+
+</resources>
